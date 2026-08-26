@@ -1,0 +1,47 @@
+body {
+  font-family: sans-serif;
+  color: #333333;
+  background-color: #f4f4f9;
+  margin: 20px;
+}
+
+h1, h2, h3 {
+  color: #1a2a3a;
+  text-align: center;
+}
+
+.seccion {
+  margin-bottom: 40px;
+}
+
+.tarjetas {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.tarjeta {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.grilla {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.celda {
+  background-color: #ffffff;
+  padding: 25px;
+  text-align: center;
+  border-radius: 6px;
+  transition: transform 0.2s;
+}
+
+.celda:hover {
+  background-color: #e2e8f0;
+  transform: scale(1.02);
+}
